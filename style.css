@@ -186,7 +186,7 @@ nav h3 {
 .container#blur.active {
   filter: blur(10px);
   pointer-events: none;
-  user-select: none;
+  -webkit-user-select: none;
 }
 
 #popup {
@@ -408,7 +408,7 @@ section.about .about-content a {
 
 /*Skill section styling*/
 
-section.skills .container {}
+/* section.skills .container {} */
 
 .skills-header {
   display: flex;
